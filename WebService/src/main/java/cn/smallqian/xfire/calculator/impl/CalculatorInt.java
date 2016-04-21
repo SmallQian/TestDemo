@@ -32,6 +32,7 @@ public class CalculatorInt implements Calculator {
 		return a+b;
 	}
 
+	
 	@Override
 	public int sub(int a, int b) {
 		System.out.println(a+"-"+b+"="+(a-b));
