@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+
+	<service>
+		<name>XfireWebService</name>
+		<namespace>XFireWebSservice</namespace>
+		<serviceClass>cn.smallqian.xfire.calculator.Calculator</serviceClass>
+		<implementationClass>cn.smallqian.xfire.calculator.impl.CalculatorInt</implementationClass>
+	</service>
+</beans>
