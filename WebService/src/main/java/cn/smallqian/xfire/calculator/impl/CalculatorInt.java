@@ -32,5 +32,9 @@ public class CalculatorInt implements Calculator {
 		// TODO Auto-generated method stub
 		return a/b;
 	}
+	
+	public long add(long a,long b){
+		return a+b;
+	}
 
 }
