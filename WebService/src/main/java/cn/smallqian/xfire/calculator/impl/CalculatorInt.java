@@ -11,25 +11,25 @@ public class CalculatorInt implements Calculator {
 
 	@Override
 	public int add(int a, int b) {
-		// TODO Auto-generated method stub
+		System.out.println(a+"+"+b+"="+(a+b));
 		return a+b;
 	}
 
 	@Override
 	public int subtract(int a, int b) {
-		// TODO Auto-generated method stub
+		System.out.println(a+"-"+b+"="+(a-b));
 		return a-b;
 	}
 
 	@Override
 	public int multiplication(int a, int b) {
-		// TODO Auto-generated method stub
+		System.out.println(a+"*"+b+"="+(a*b));
 		return a*b;
 	}
 
 	@Override
 	public int division(int a, int b) {
-		// TODO Auto-generated method stub
+		System.out.println(a+"/"+b+"="+(a/b));
 		return a/b;
 	}
 	
