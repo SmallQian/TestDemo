@@ -11,7 +11,7 @@ public class CalculatorInt implements Calculator {
 
 
 	@Override
-	public int mult(int a, int b) {
+	public int multac(int a, int b) {
 		System.out.println(a+"*"+b+"="+(a*b));
 		return a*b;
 	}

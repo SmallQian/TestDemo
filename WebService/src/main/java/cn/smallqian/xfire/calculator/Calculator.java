@@ -11,7 +11,7 @@ public interface Calculator {
 	
 	public int sub(int a,int b);
 	
-	public int mult(int a,int b);
+	public int multac(int a,int b);
 	
 	public int div(int a,int b);
 	
