@@ -9,6 +9,23 @@ import cn.smallqian.xfire.calculator.Calculator;
  */
 public class CalculatorInt implements Calculator {
 
+
+	@Override
+	public int mult(int a, int b) {
+		System.out.println(a+"*"+b+"="+(a*b));
+		return a*b;
+	}
+
+	@Override
+	public int div(int a, int b) {
+		System.out.println(a+"/"+b+"="+(a/b));
+		return a/b;
+	}
+	
+	public long add(long a,long b){
+		System.out.println(a+"+"+b+"="+(a+b));
+		return a+b;
+	}
 	@Override
 	public int add(int a, int b) {
 		System.out.println(a+"+"+b+"="+(a+b));
@@ -16,21 +33,9 @@ public class CalculatorInt implements Calculator {
 	}
 
 	@Override
-	public int subtract(int a, int b) {
+	public int sub(int a, int b) {
 		System.out.println(a+"-"+b+"="+(a-b));
 		return a-b;
-	}
-
-	@Override
-	public int multiplication(int a, int b) {
-		System.out.println(a+"*"+b+"="+(a*b));
-		return a*b;
-	}
-
-	@Override
-	public int division(int a, int b) {
-		System.out.println(a+"/"+b+"="+(a/b));
-		return a/b;
 	}
 
 }
