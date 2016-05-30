@@ -16,5 +16,9 @@ public class HelloImpl implements Hello {
 		return null;
 	}
 
-	
+	@Override
+	public String sayHello(String mesage) {
+		System.out.println(mesage);
+		return "smallqian"+mesage;
+	}
 }
