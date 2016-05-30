@@ -4,8 +4,8 @@ import cn.smallqian.xfire.calculator.Calculator;
 
 /**
  * cn.smallqian.xfire.calculator.impl.CalculatorInt
- * @author Ç®çùçâ <br/>
- * Create at 2016Äê4ÔÂ17ÈÕ ÏÂÎç7:04:59
+ * @author é’±ç¦ç® <br/>
+ * Create at 2016å¹´5æœˆ30æ—¥ ä¸‹åˆ10:13:58
  */
 public class CalculatorInt implements Calculator {
 

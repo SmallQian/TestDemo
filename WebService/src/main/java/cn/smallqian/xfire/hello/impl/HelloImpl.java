@@ -3,10 +3,18 @@ package cn.smallqian.xfire.hello.impl;
 import cn.smallqian.xfire.hello.Hello;
 
 /**
+ * 
  * cn.smallqian.xfire.hello.impl.HelloImpl
- * @author Ç®çùçâ <br/>
- * Create at 2016Äê5ÔÂ30ÈÕ ÏÂÎç7:36:44
+ * @author é’±ç¦ç® <br/>
+ * Create at 2016å¹´5æœˆ30æ—¥ ä¸‹åˆ10:13:27
  */
 public class HelloImpl implements Hello {
 
+	@Override
+	public String ssayHello() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 }

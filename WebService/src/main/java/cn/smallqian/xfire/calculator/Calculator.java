@@ -2,8 +2,8 @@ package cn.smallqian.xfire.calculator;
 
 /**
  * cn.smallqian.xfire.calculator.Calculator
- * @author Ç®çùçâ <br/>
- * Create at 2016Äê4ÔÂ17ÈÕ ÏÂÎç6:59:27
+ * @author é’±ç¦ç® <br/>
+ * Create at 2016å¹´5æœˆ30æ—¥ ä¸‹åˆ10:13:42
  */
 public interface Calculator {
 
