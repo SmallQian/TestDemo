@@ -10,4 +10,6 @@ public interface Hello {
 	public String ssayHello();
 	
 	public String sayHello(String message);
+	
+	public String ok();
 }
