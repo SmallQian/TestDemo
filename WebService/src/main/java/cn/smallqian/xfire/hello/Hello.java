@@ -2,9 +2,10 @@ package cn.smallqian.xfire.hello;
 
 /**
  * cn.smallqian.xfire.hello.Hello
- * @author Ç®çùçâ <br/>
- * Create at 2016Äê5ÔÂ30ÈÕ ÏÂÎç7:10:33
+ * @author é’±ç¦ç® <br/>
+ * Create at 2016å¹´5æœˆ30æ—¥ ä¸‹åˆ9:52:44
  */
 public interface Hello {
 
+	public String ssayHello();
 }
