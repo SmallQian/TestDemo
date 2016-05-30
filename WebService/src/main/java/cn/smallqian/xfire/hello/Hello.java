@@ -7,5 +7,6 @@ package cn.smallqian.xfire.hello;
  */
 public interface Hello {
 
-	public String ssayHello();
+	public String sayHello(String Message);
+	
 }

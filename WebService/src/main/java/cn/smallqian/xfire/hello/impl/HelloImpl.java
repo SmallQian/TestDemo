@@ -4,9 +4,15 @@ import cn.smallqian.xfire.hello.Hello;
 
 /**
  * cn.smallqian.xfire.hello.impl.HelloImpl
- * @author Ç®çùçâ <br/>
- * Create at 2016Äê5ÔÂ30ÈÕ ÏÂÎç7:36:44
+ * @author é’±ç¦ç® <br/>
+ * Create at 2016å¹´5æœˆ30æ—¥ ä¸‹åˆ10:40:12
  */
 public class HelloImpl implements Hello {
+
+	@Override
+	public String sayHello(String Message) {
+		System.out.println(Message);
+		return "smallqian"+Message;
+	}
 
 }
