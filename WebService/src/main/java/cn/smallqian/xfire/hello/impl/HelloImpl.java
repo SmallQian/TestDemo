@@ -21,4 +21,12 @@ public class HelloImpl implements Hello {
 		System.out.println(mesage);
 		return "smallqian"+mesage;
 	}
+
+	@Override
+	public String ok() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
 }
