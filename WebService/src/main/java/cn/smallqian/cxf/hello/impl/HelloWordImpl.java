@@ -9,4 +9,10 @@ import cn.smallqian.cxf.hello.HelloWord;
  */
 public class HelloWordImpl implements HelloWord{
 
+	@Override
+	public String sayHello(String message) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

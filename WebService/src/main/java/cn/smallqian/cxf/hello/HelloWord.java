@@ -7,4 +7,5 @@ package cn.smallqian.cxf.hello;
  */
 public interface HelloWord {
 
+	public String sayHello(String message);
 }
